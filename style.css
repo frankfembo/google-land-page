@@ -1,0 +1,15 @@
+img {
+	width: 300px;
+	height: auto;
+}
+.link {
+	text-decoration: none;
+	background: #28a745;
+}
+.sign {
+	text-decoration: none;
+}
+button {
+	border-radius: 5%;
+	background: #3882f6;
+}
