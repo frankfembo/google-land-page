@@ -1,11 +1,11 @@
-img {
-	width: 250px;
-	height: 175px;
+.img {
+	max-width: 230px;
+	max-height: 135px;
 }
 body {
 	flex-shrink: 2;
 	flex-direction: column;
-	padding: 0 130px 10px 130px;
+	margin: 0 130px 10px 130px;
 	background: #b0eeb0;
 	height: 100%;
 	max-width: 70em;
@@ -18,6 +18,8 @@ body {
 }
 .backgrnd {
 	background: #1f2937;
+	justify-content: center;
+	align-content: center;
 }
 .emt {
 	margin-left: 150px;
@@ -56,8 +58,8 @@ body {
 }
 .plch, .reg {
 	margin: auto 30px 10px auto;
-	width: 450px;
-	height: 200px;
+	max-width: 450px;
+	max-height: 200px;
 }
 .sign {
     text-decoration: none;
